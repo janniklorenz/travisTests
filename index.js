@@ -18,9 +18,10 @@ var server = app.listen(3000, function () {
 
 
 
-
+/*
 function foo(x) {
   return x * 10;
 }
 
 foo('Hello, world!');
+*/
