@@ -6,6 +6,11 @@
   "dependencies": {
     "express": "~4.12.2"
   },
+  "scripts": {
+    "test": "npm run test-install && npm run test-flow",
+    "test-install": "npm install",
+    "test-flow": "flow check"
+  },
   "main": "index.js"
 }
 

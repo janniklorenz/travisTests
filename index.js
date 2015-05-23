@@ -1,3 +1,5 @@
+/* @flow */
+
 var express = require('express');
 var app = express();
 
@@ -13,3 +15,9 @@ var server = app.listen(3000, function () {
   console.log('Example app listening at http://%s:%s', host, port);
 
 });
+
+function foo(x) {
+  return x * 10;
+}
+
+foo('Hello, world!');
