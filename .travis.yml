@@ -1,5 +1,2 @@
-before_script: "npm install"
-
-script: "node index.js"
 language: node_js
 node_js: "0.12"
